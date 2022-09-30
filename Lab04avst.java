@@ -13,6 +13,17 @@ public class Lab04avst
         double annualRate = 4.85;
         double numYears   = 30;
 
+        // Not provided:
+        double monthlyRate = (annualRate/100) / 12; // 100 makes it a decimal, 12 makes it monthly
+        double numMonths = numYears * 12;
+
+        double numerator =  monthlyRate * Math.pow(1+monthlyRate,numMonths);
+
+
+        System.out.println(numerator);
+        System.out.println(monthlyRate);
+
+
 
 
 
