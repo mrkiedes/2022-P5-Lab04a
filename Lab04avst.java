@@ -7,6 +7,7 @@ public class Lab04avst
 {
     public static void main(String[] args)
     {
+
         System.out.println("Lab04a, Student Version\n");
 
         double principal  = 250000;
@@ -14,7 +15,7 @@ public class Lab04avst
         double numYears   = 30;
 
         // Not provided:
-        double monthlyRate = (annualRate/100) / 12; // 100 makes it a decimal, 12 makes it monthly
+        double monthlyRate = (annualRate / 100) / 12; // 100 makes it a decimal, 12 makes it monthly
         double numMonths = numYears * 12;
 
         double numerator =  monthlyRate * Math.pow(1+monthlyRate,numMonths);
@@ -24,15 +25,5 @@ public class Lab04avst
         System.out.println(monthlyRate);
 
 
-
-
-
-
-
-
-
-
-        System.out.println();
     }
 }
-
